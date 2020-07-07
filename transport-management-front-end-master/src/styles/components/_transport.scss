@@ -1,0 +1,28 @@
+/* transport */
+
+.car-card {
+  border-radius: 0 !important;
+}
+
+.car-img {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* ticket */
+
+.ticket {
+  background: var(--mainGrey);
+}
+
+.carousel-control-prev {
+  font-size: 2.5rem;
+  color: var(--mainDark);
+  transform: translateX(-200%);
+}
+
+.carousel-control-next {
+  font-size: 2.5rem;
+  color: var(--mainDark);
+  transform: translateX(200%);
+}

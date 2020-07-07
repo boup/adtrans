@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+
+:root {
+  --mainDark: #242325;
+  --mainGreen: #61e786;
+  --mainWhite: #fff;
+  --mainGrey: #eeeeee;
+}
+/* global */
+
+.title-parallogram {
+  background: var(--mainGreen);
+  color: var(--mainWhite) !important;
+  padding: 0.5rem 2rem;
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+
+.text-green {
+  color: var(--mainGreen);
+}
+
+.btn_green {
+  color: var(--mainDark);
+  border: 0.1rem solid var(--mainGreen);
+  background: var(--mainGreen);
+}
+.btn_green:hover {
+  background: var(--mainGreen);
+  color: var(--mainWhite);
+}
+
+/* end of global */
+
+/* navbar */
+.navbar {
+  background: var(--mainDark) !important;
+}
+
+.nav-item {
+  transition: all 1s ease-in-out;
+}
+
+.nav-item:hover {
+  border-bottom: 0.1rem solid var(--mainGreen);
+}
+
+.active_link {
+  border-bottom: 0.1rem solid var(--mainGreen);
+}
+
+.phone-icon {
+  color: var(--mainGreen);
+  border: 0.1rem solid var(--mainGreen);
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+/* end of navbar */
+/* header */
+
+.video-background {
+  position: relative;
+  width: 100%;
+  min-height: calc(100vh - 67.64px);
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  overflow: hidden;
+}
+
+.text {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  color: #fff;
+}

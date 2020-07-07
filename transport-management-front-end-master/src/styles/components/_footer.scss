@@ -1,0 +1,16 @@
+/* footer */
+
+.page-footer {
+  background: var(--mainDark);
+  color: var(--mainWhite);
+}
+
+.site {
+  text-decoration: none !important;
+  color: var(--mainGreen);
+}
+
+.site:hover {
+  color: var(--mainGreen);
+  text-decoration: none !important;
+}

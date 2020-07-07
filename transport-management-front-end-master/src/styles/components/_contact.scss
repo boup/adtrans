@@ -1,0 +1,21 @@
+/* contact  */
+
+#contact .form-control {
+  border-radius: 0;
+  border: 2px solid #1e1e1e;
+}
+
+#contact button {
+  border-radius: 0;
+  border: 2px solid #1e1e1e;
+}
+
+#contact .row {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  #contact iframe {
+    margin-bottom: 15px;
+  }
+}

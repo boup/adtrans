@@ -1,0 +1,37 @@
+.paper_L {
+  padding: 2rem;
+  //text-align: center;
+  //color:;
+  min-height: 55vh;
+}
+.paper1_C {
+  padding: 2rem;
+  text-align: center;
+  //color: theme.palette.text.secondary;
+  min-height: 20vh;
+}
+.table {
+  min-width: 200;
+}
+a {
+  .Button {
+    list-style: none;
+    text-decoration: none;
+    background: orangered !important;
+    &--item {
+      color: white;
+      font-size: 30px;
+      display: block;
+    }
+  }
+}
+a:link {
+  list-style: none;
+  text-decoration: none;
+}
+.cus-h {
+  min-height: 58vh !important ;
+  //width: vw !important;
+  border-bottom-right-radius: 2rem !important;
+  border-bottom-left-radius: 2rem !important;
+}
